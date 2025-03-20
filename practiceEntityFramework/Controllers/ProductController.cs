@@ -1,38 +1,24 @@
-﻿using AdventureWorksAPI.Data;
-using AdventureWorksAPI.Models;
+﻿using AdventureWorksAPI.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using practiceEntityFramework.Interface;
 
-namespace AdventureWorksAPI.Controllers
+namespace practiceEntityFramework.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductController : Controller
     {
-        private readonly AdventureWorksContext _context;
-
-        public ProductController(AdventureWorksContext context)
+        
+        private readonly IProductRepository _productRepository;
+        public ProductController(IProductRepository productRepository)
         {
-            _context = context;
+            _productRepository = productRepository;
         }
-
-        // Obtener todos los productos
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        public async Task<ActionResult<IEnumerable<Product>>> GetProduct()
         {
-            return await _context.Products.ToListAsync();
-        }
-
-        // Obtener un producto por ID
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
-        {
-            var product = await _context.Products.FindAsync(id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            return product;
+            var products = await _productRepository.GetProductAsync();
+            return Ok(products);
         }
     }
 }

@@ -166,3 +166,4 @@ C:\Users\Evelin Rivera Mtz\source\repos\practiceEntityFramework\practiceEntityFr
 C:\Users\Evelin Rivera Mtz\source\repos\practiceEntityFramework\practiceEntityFramework\obj\Debug\net8.0\practiceEntityFramework.pdb
 C:\Users\Evelin Rivera Mtz\source\repos\practiceEntityFramework\practiceEntityFramework\obj\Debug\net8.0\practiceEntityFramework.genruntimeconfig.cache
 C:\Users\Evelin Rivera Mtz\source\repos\practiceEntityFramework\practiceEntityFramework\obj\Debug\net8.0\ref\practiceEntityFramework.dll
+C:\Users\Evelin Rivera Mtz\source\repos\practiceEntityFramework\practiceEntityFramework\obj\Debug\net8.0\practiceEntityFramework.sourcelink.json

@@ -1,14 +1,12 @@
 using AdventureWorksAPI.Data;
-using Microsoft.EntityFrameworkCore;
-using AdventureWorksAPI.Models;
+using Microsoft.EntityFrameworkCore;    
 using practiceEntityFramework.Interface;
-using static practiceEntityFramework.Data.ProductRepository;
 using practiceEntityFramework.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AdventureWorksContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("AdventureWorks")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AdventureWorks2022")));
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -24,7 +22,7 @@ builder.Services.AddDbContext<AdventureWorksContext>(options => options.UseSqlSe
         errorNumbersToAdd: null);
 
     }));
-//builder.Services.AddScoped<IProductRepository,ProductRepository >();
+builder.Services.AddScoped<IProductRepository,ProductRepository >();
 
 
 var app = builder.Build();

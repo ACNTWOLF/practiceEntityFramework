@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using AdventureWorksAPI.Data;
 using AdventureWorksAPI.Models;
 using System;
+
 namespace practiceEntityFramework.Data
 {
     public class ProductRepository : IProductRepository
@@ -14,21 +15,17 @@ namespace practiceEntityFramework.Data
             
             
         }
-        //public async Task<Product> GetProductsAsync()=> await
-        public async Task<Product> GetCustomerByIdAsync(int id)
-           => await _context.Products.FindAsync(id);
+        public async Task<Product> GetProductAsync(int id)
+            => await _context.Product.FindAsync(id);
 
-        public async Task<IEnumerable<Product>> GetCustomersAsync()
-            => await _context.Products.Take(100).ToListAsync();
+        public async Task<IEnumerable<Product>> GetProductAsync()
+            => await _context.Product.Take(100).ToListAsync();
 
-        public async Task<Product> CreateCustomerAsync(Product product)
+        public async Task<Product> GetProductAsync(Product person)
         {
-            _context.Products.Add(product);
+            _context.Product.Add(person);
             await _context.SaveChangesAsync();
-            return product;
-        }
-        public interface ICustomerRepository
-        {
+            return person;
         }
     }
 }

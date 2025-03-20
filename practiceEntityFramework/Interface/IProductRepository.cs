@@ -5,6 +5,6 @@ namespace practiceEntityFramework.Interface
 {
     public interface IProductRepository
     {
-        Task<IEnumerable<Product>> GetCustomersAsync();
+        Task<IEnumerable<Product>> GetProductAsync();
     }
 }

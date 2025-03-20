@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using AdventureWorksAPI.Models;
+using System;
 
 namespace AdventureWorksAPI.Data
 {
@@ -8,7 +9,12 @@ namespace AdventureWorksAPI.Data
         public AdventureWorksContext(DbContextOptions<AdventureWorksContext> options) : base(options) { }
 
         // Agrega aquí los DbSets de las tablas que usarás
-        public DbSet<Product> Products { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Configura el esquema y el nombre de la tabla
+            modelBuilder.Entity<Product>().ToTable("Product", schema: "Production");
+        }
+        public DbSet<Product> Product { get; set; }
     }
 }
 

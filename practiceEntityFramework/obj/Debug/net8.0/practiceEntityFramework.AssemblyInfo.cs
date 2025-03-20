@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("practiceEntityFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c28e2d74f4a16f17e073a93d3443490237307702")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4211e04df99db419a676b824f1e62ea28b71821")]
 [assembly: System.Reflection.AssemblyProductAttribute("practiceEntityFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("practiceEntityFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
