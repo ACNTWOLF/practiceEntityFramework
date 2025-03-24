@@ -1,10 +1,15 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using AdventureWorksAPI.Models;
 
 namespace practiceEntityFramework.Interface
 {
     public interface IProductRepository
     {
-        Task<IEnumerable<Product>> GetProductAsync();
+        Task<IEnumerable<Product>> GetProductsAsync();
+        Task<Product> GetProductByIdAsync(int id);
+        Task<Product> CreateProductAsync(Product product);
+        Task<bool> UpdateProductAsync(Product product);
+        Task<bool> DeleteProductByIdAsync(int id);
     }
 }
