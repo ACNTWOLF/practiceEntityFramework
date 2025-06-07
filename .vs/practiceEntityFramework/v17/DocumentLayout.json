@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|c:\\users\\evelin rivera mtz\\source\\repos\\practiceentityframework\\practiceentityframework\\controllers\\productoperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|solutionrelative:practiceentityframework\\controllers\\productoperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|c:\\users\\evelin rivera mtz\\source\\repos\\practiceentityframework\\practiceentityframework\\application\\productoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|solutionrelative:practiceentityframework\\application\\productoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|c:\\users\\evelin rivera mtz\\source\\repos\\practiceentityframework\\practiceentityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|solutionrelative:practiceentityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|c:\\users\\evelin rivera mtz\\source\\repos\\practiceentityframework\\practiceentityframework\\controllers\\productoperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|solutionrelative:practiceentityframework\\controllers\\productoperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|c:\\users\\evelin rivera mtz\\source\\repos\\practiceentityframework\\practiceentityframework\\data\\productsprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Program.cs",
               "RelativeDocumentMoniker": "practiceEntityFramework\\Program.cs",
@@ -42,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProductOperationController.cs",
               "DocumentMoniker": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Controllers\\ProductOperationController.cs",
               "RelativeDocumentMoniker": "practiceEntityFramework\\Controllers\\ProductOperationController.cs",
@@ -50,7 +54,8 @@
               "RelativeToolTip": "practiceEntityFramework\\Controllers\\ProductOperationController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T17:52:11.23Z"
+              "WhenOpened": "2025-06-05T17:52:11.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductOperation.cs",
               "DocumentMoniker": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Application\\ProductOperation.cs",
               "RelativeDocumentMoniker": "practiceEntityFramework\\Application\\ProductOperation.cs",
