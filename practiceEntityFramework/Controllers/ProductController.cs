@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using AdventureWorksAPI.Models;
 using practiceEntityFramework.Interface;
+using practiceEntityFramework.Entities.Products;
 
 namespace AdventureWorksAPI.Controllers
 {

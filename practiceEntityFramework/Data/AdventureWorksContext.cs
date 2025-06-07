@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using AdventureWorksAPI.Models;
 using System;
+using practiceEntityFramework.Entities.Products;
 
 namespace AdventureWorksAPI.Data
 {
@@ -12,8 +12,9 @@ namespace AdventureWorksAPI.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configura el esquema y el nombre de la tabla
-            modelBuilder.Entity<Product>().ToTable("Product", schema: "Production");
+            //modelBuilder.Entity<Product>().ToTable("Product", schema: "Production");
         }
+        
         public DbSet<Product> Product { get; set; }
     }
 }

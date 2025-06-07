@@ -1,9 +1,9 @@
 ﻿using practiceEntityFramework.Interface;
 using Microsoft.EntityFrameworkCore;
 using AdventureWorksAPI.Data;
-using AdventureWorksAPI.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using practiceEntityFramework.Entities.Products;
 
 namespace practiceEntityFramework.Data
 {

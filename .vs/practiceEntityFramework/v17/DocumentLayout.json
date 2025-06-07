@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|c:\\users\\evelin rivera mtz\\source\\repos\\practiceentityframework\\practiceentityframework\\application\\productoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|solutionrelative:practiceentityframework\\application\\productoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|c:\\users\\evelin rivera mtz\\source\\repos\\practiceentityframework\\practiceentityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|solutionrelative:practiceentityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|c:\\users\\evelin rivera mtz\\source\\repos\\practiceentityframework\\practiceentityframework\\controllers\\productoperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|solutionrelative:practiceentityframework\\controllers\\productoperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|c:\\users\\evelin rivera mtz\\source\\repos\\practiceentityframework\\practiceentityframework\\data\\productsprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F843C8-B020-4A67-AA4C-BAAFD6FF0425}|practiceEntityFramework\\practiceEntityFramework.csproj|solutionrelative:practiceentityframework\\data\\productsprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 137,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Program.cs",
+              "RelativeDocumentMoniker": "practiceEntityFramework\\Program.cs",
+              "ToolTip": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Program.cs",
+              "RelativeToolTip": "practiceEntityFramework\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:53:53.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductOperationController.cs",
+              "DocumentMoniker": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Controllers\\ProductOperationController.cs",
+              "RelativeDocumentMoniker": "practiceEntityFramework\\Controllers\\ProductOperationController.cs",
+              "ToolTip": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Controllers\\ProductOperationController.cs",
+              "RelativeToolTip": "practiceEntityFramework\\Controllers\\ProductOperationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:52:11.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductSpRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Data\\ProductSpRepository.cs",
+              "RelativeDocumentMoniker": "practiceEntityFramework\\Data\\ProductSpRepository.cs",
+              "ToolTip": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Data\\ProductSpRepository.cs",
+              "RelativeToolTip": "practiceEntityFramework\\Data\\ProductSpRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:48:27.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Application\\ProductOperation.cs",
+              "RelativeDocumentMoniker": "practiceEntityFramework\\Application\\ProductOperation.cs",
+              "ToolTip": "C:\\Users\\Evelin Rivera Mtz\\source\\repos\\practiceEntityFramework\\practiceEntityFramework\\Application\\ProductOperation.cs",
+              "RelativeToolTip": "practiceEntityFramework\\Application\\ProductOperation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:44:27.097Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

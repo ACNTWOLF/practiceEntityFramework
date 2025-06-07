@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using AdventureWorksAPI.Models;
+using practiceEntityFramework.Entities.Products;
 
 namespace practiceEntityFramework.Interface
 {

@@ -2,6 +2,7 @@ using AdventureWorksAPI.Data;
 using Microsoft.EntityFrameworkCore;    
 using practiceEntityFramework.Interface;
 using practiceEntityFramework.Data;
+using practiceEntityFramework.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,9 @@ builder.Services.AddDbContext<AdventureWorksContext>(options => options.UseSqlSe
 
     }));
 builder.Services.AddScoped<IProductRepository,ProductRepository >();
+builder.Services.AddScoped<IProductSpRepository, ProductspRepository>();
+builder.Services.AddScoped<IProductOperation, ProductOperation>();
+
 
 
 var app = builder.Build();
